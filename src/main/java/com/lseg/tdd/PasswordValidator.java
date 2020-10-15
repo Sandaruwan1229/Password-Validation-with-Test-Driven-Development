@@ -16,33 +16,19 @@
 package com.lseg.tdd;
 
 import com.lseg.tdd.util.Util;
+import com.lseg.tdd.validator.Ivalidator;
+
 import java.util.*;
 
 public class PasswordValidator {
-    private int minLength;
-    private List<String> specialChars;
-    private int minNumbers;
 
-    public PasswordValidator(int minLength ,List<String> specialChars ,int minNumbers) {
-        this.minLength = minLength;
-        this.specialChars = specialChars;
-        this.minNumbers = minNumbers;
+    private List<Ivalidator> validators;
+
+    public PasswordValidator(List<Ivalidator> validators) {
+        this.validators = validators;
     }
     public boolean validate(String password) {
-        if (password != null && password.length() >= minLength) {
-
-            if(!specialChars.stream().anyMatch(ch ->password.contains(ch))){
-                
-                if(password.matches(".*\\d{2}.*")){
-                    return true;
-                }
-                else{ Util.logError("Password does not contain at least two numbers ", password);}
-            }
-            else{ Util.logError("Password contains special characters", password); }
-        }
-        else { Util.logError("Password do not meet minimum length", password);}
-
-        return false;
+        return validators.stream().allMatch(validator -> validator.validate(password));
     }
 
 }

@@ -16,14 +16,26 @@
 
 package com.lseg.tdd;
 
+import com.lseg.tdd.validator.Ivalidator;
+import com.lseg.tdd.validator.impl.MinimumLength_Validator;
+import com.lseg.tdd.validator.impl.NumericalCharactors_Validator;
+import com.lseg.tdd.validator.impl.SpecialCharactors_Validator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class PasswordValidatorTest {
+
     private PasswordValidator getInstance(){
-        return new PasswordValidator(3, Arrays.asList("*","!","%"),2);
+        List<Ivalidator> validators = new ArrayList<>();
+        validators.add( new MinimumLength_Validator(3));
+        validators.add(new SpecialCharactors_Validator(Arrays.asList("*","!","%")));
+        validators.add(new NumericalCharactors_Validator(2));
+
+        return new PasswordValidator(validators);
     }
     @Test
     public void testSpecialChars(){

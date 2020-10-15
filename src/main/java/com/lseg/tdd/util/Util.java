@@ -22,8 +22,10 @@ public class Util {
      * This method will console log error message if a validation is failed
      * @param message Error message
      * @param password error generated password string
+     * @return
      */
-    public static void logError(String message, String password) {
+    public static boolean logError(String message, String password) {
         System.out.println(message + " , Given Password : " + password);
+        return false;
     }
 }

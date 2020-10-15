@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f63cba30-8db5-4608-b11c-d1113108e6ae" name="Default Changelist" comment="" />
+    <list default="true" id="f63cba30-8db5-4608-b11c-d1113108e6ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/Ivalidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/MinimumLength_Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/NumericalCharactors_Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/SpecialCharactors_Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lseg/tdd/PasswordValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lseg/tdd/PasswordValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lseg/tdd/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lseg/tdd/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/lseg/tdd/PasswordValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/lseg/tdd/PasswordValidatorTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,12 +29,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/lseg/tdd/PasswordValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="31" column="60" lean-forward="true" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+            <state relative-caret-position="249">
+              <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#926#927#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/PasswordValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/NumericalCharactors_Validator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,19 +69,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/util/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/MinimumLength_Validator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/PasswordValidator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/SpecialCharactors_Validator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="289">
+              <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,11 +114,27 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/lseg/tdd/PasswordValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/Ivalidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lseg/tdd/PasswordValidator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lseg/tdd/PasswordValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lseg/tdd/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/NumericalCharactors_Validator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/MinimumLength_Validator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/SpecialCharactors_Validator.java" />
       </list>
     </option>
   </component>
@@ -75,6 +143,9 @@
     <option name="y" value="6" />
     <option name="width" value="1079" />
     <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -123,15 +194,6 @@
               <item name="passwordvalidator" type="b2602c69:ProjectViewProjectNode" />
               <item name="TDD_Demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tdd" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="passwordvalidator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TDD_Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,6 +220,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last.edited.regexp" value="2121" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -237,8 +300,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.PasswordValidatorTest" />
-        <item itemvalue="TestNG.PasswordValidatorTest.testSpecialChars" />
         <item itemvalue="TestNG.PasswordValidatorTest.testNumbers" />
+        <item itemvalue="TestNG.PasswordValidatorTest.testSpecialChars" />
         <item itemvalue="JAR Application.testng-7.1.0.jar" />
       </list>
     </recent_temporary>
@@ -257,24 +320,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PasswordValidatorTest_testNumbers - 2020.10.15 at 10h 57m 46s.xml">
-      <configuration name="PasswordValidatorTest.testNumbers" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidatorTest_testNumbers - 2020.10.15 at 11h 08m 44s.xml">
-      <configuration name="PasswordValidatorTest.testNumbers" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidatorTest_testSpecialChars - 2020.10.15 at 18h 51m 47s.xml">
-      <configuration name="PasswordValidatorTest.testSpecialChars" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidatorTest_testSpecialChars - 2020.10.15 at 19h 00m 03s.xml">
-      <configuration name="PasswordValidatorTest.testSpecialChars" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidatorTest_testSpecialChars - 2020.10.15 at 19h 12m 05s.xml">
-      <configuration name="PasswordValidatorTest.testSpecialChars" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="PasswordValidatorTest_testSpecialChars - 2020.10.15 at 19h 13m 43s.xml">
-      <configuration name="PasswordValidatorTest.testSpecialChars" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="PasswordValidatorTest_testNumbers - 2020.10.15 at 19h 13m 54s.xml">
       <configuration name="PasswordValidatorTest.testNumbers" configurationId="TestNG" />
     </history-entry>
@@ -287,6 +332,24 @@
     <history-entry file="PasswordValidatorTest - 2020.10.15 at 19h 19m 46s.xml">
       <configuration name="PasswordValidatorTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PasswordValidatorTest - 2020.10.15 at 22h 21m 56s.xml">
+      <configuration name="PasswordValidatorTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PasswordValidatorTest - 2020.10.15 at 22h 22m 27s.xml">
+      <configuration name="PasswordValidatorTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PasswordValidatorTest_testSpecialChars - 2020.10.15 at 22h 32m 21s.xml">
+      <configuration name="PasswordValidatorTest.testSpecialChars" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PasswordValidatorTest_testSpecialChars - 2020.10.15 at 22h 36m 28s.xml">
+      <configuration name="PasswordValidatorTest.testSpecialChars" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PasswordValidatorTest_testNumbers - 2020.10.15 at 22h 36m 34s.xml">
+      <configuration name="PasswordValidatorTest.testNumbers" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PasswordValidatorTest - 2020.10.15 at 22h 36m 40s.xml">
+      <configuration name="PasswordValidatorTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -297,7 +360,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16845638" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16845638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.23229462" />
@@ -305,7 +368,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3045326" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3045326" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -315,11 +378,40 @@
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.020134227" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.020134227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16845638" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.23229462" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3045326" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" visible="true" weight="0.020134227" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,13 +430,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/util/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1138">
@@ -352,24 +437,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lseg/tdd/PasswordValidatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/Ivalidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="31" column="60" lean-forward="true" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/PasswordValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="170">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lseg/tdd/PasswordValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="42" column="15" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/NumericalCharactors_Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/MinimumLength_Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lseg/tdd/validator/impl/SpecialCharactors_Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
           </folding>
         </state>
       </provider>
